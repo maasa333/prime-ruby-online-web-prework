@@ -8,4 +8,3 @@ end
 x = is_prime(11)
 
 puts x
-
