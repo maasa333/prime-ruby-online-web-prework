@@ -1,8 +1,11 @@
-def prime?(num)
-  (2..(num - 1)).each do |x|
-    return true if num % x != 0
+def is_prime(num)
+  (2..(num - 1)).each do |n|
+    return false if num % n == 0
   end
-    num % x == 0
-      false
-    end
+  true
 end
+
+x = is_prime(11)
+
+puts x
+
